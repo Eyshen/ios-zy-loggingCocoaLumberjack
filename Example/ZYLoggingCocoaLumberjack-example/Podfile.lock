@@ -1,0 +1,26 @@
+PODS:
+  - CocoaLumberjack (3.4.2):
+    - CocoaLumberjack/Default (= 3.4.2)
+    - CocoaLumberjack/Extensions (= 3.4.2)
+  - CocoaLumberjack/Default (3.4.2)
+  - CocoaLumberjack/Extensions (3.4.2):
+    - CocoaLumberjack/Default
+  - ZYLoggingAPI (1.0.0)
+
+DEPENDENCIES:
+  - CocoaLumberjack (~> 3.4)
+  - ZYLoggingAPI
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CocoaLumberjack
+  https://github.com/Eyshen/ios-zy-framework-cocoapods-specs.git:
+    - ZYLoggingAPI
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: db7cc9e464771f12054c22ff6947c5a58d43a0fd
+  ZYLoggingAPI: 3ce3e3806410c43cc64e2398d4d562abdebfb9a6
+
+PODFILE CHECKSUM: d4f1fa5f4be4c982d80af5ca38fca483b212c98a
+
+COCOAPODS: 1.5.3

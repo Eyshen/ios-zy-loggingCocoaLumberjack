@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035243177D5BCD89E18953DE /* libPods-ZYLoggingCocoaLumberjack-example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1882A28E0034C2B0405900 /* libPods-ZYLoggingCocoaLumberjack-example.a */; };
+		52F334C923643D4B00C600BB /* ZYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F334C723643D4B00C600BB /* ZYLogger.m */; };
+		C1F0F7091C1D232000E99461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F0F7081C1D232000E99461 /* main.m */; };
+		C1F0F70C1C1D232000E99461 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F0F70B1C1D232000E99461 /* AppDelegate.m */; };
+		C1F0F70F1C1D232000E99461 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F0F70E1C1D232000E99461 /* ViewController.m */; };
+		C1F0F7121C1D232000E99461 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1F0F7101C1D232000E99461 /* Main.storyboard */; };
+		C1F0F7141C1D232000E99461 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1F0F7131C1D232000E99461 /* Images.xcassets */; };
+		C1F0F7171C1D232000E99461 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1F0F7151C1D232000E99461 /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52F334C723643D4B00C600BB /* ZYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYLogger.m; sourceTree = "<group>"; };
+		52F334C823643D4B00C600BB /* ZYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYLogger.h; sourceTree = "<group>"; };
+		82F8305AD5F02352C1126AD9 /* Pods-ZYLoggingCocoaLumberjack-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYLoggingCocoaLumberjack-example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZYLoggingCocoaLumberjack-example/Pods-ZYLoggingCocoaLumberjack-example.debug.xcconfig"; sourceTree = "<group>"; };
+		9FCA0A419FA412CB7EBEE518 /* Pods-ZYLoggingCocoaLumberjack-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZYLoggingCocoaLumberjack-example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZYLoggingCocoaLumberjack-example/Pods-ZYLoggingCocoaLumberjack-example.release.xcconfig"; sourceTree = "<group>"; };
+		AE1882A28E0034C2B0405900 /* libPods-ZYLoggingCocoaLumberjack-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYLoggingCocoaLumberjack-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F0F7031C1D232000E99461 /* ZYLoggingCocoaLumberjack-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ZYLoggingCocoaLumberjack-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F0F7071C1D232000E99461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1F0F7081C1D232000E99461 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C1F0F70A1C1D232000E99461 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C1F0F70B1C1D232000E99461 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C1F0F70D1C1D232000E99461 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C1F0F70E1C1D232000E99461 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1F0F7111C1D232000E99461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1F0F7131C1D232000E99461 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C1F0F7161C1D232000E99461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1F0F7001C1D232000E99461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035243177D5BCD89E18953DE /* libPods-ZYLoggingCocoaLumberjack-example.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52F334C623643D4B00C600BB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				52F334C823643D4B00C600BB /* ZYLogger.h */,
+				52F334C723643D4B00C600BB /* ZYLogger.m */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+		852FDFFB009B4C5977B8109D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE1882A28E0034C2B0405900 /* libPods-ZYLoggingCocoaLumberjack-example.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1F0F6FA1C1D232000E99461 = {
+			isa = PBXGroup;
+			children = (
+				52F334C623643D4B00C600BB /* Classes */,
+				C1F0F7051C1D232000E99461 /* ZYLoggingCocoaLumberjack-example */,
+				C1F0F7041C1D232000E99461 /* Products */,
+				C395B8D24C772BF7487EA172 /* Pods */,
+				852FDFFB009B4C5977B8109D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C1F0F7041C1D232000E99461 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0F7031C1D232000E99461 /* ZYLoggingCocoaLumberjack-example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1F0F7051C1D232000E99461 /* ZYLoggingCocoaLumberjack-example */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0F70A1C1D232000E99461 /* AppDelegate.h */,
+				C1F0F70B1C1D232000E99461 /* AppDelegate.m */,
+				C1F0F70D1C1D232000E99461 /* ViewController.h */,
+				C1F0F70E1C1D232000E99461 /* ViewController.m */,
+				C1F0F7101C1D232000E99461 /* Main.storyboard */,
+				C1F0F7131C1D232000E99461 /* Images.xcassets */,
+				C1F0F7151C1D232000E99461 /* LaunchScreen.xib */,
+				C1F0F7061C1D232000E99461 /* Supporting Files */,
+			);
+			path = "ZYLoggingCocoaLumberjack-example";
+			sourceTree = "<group>";
+		};
+		C1F0F7061C1D232000E99461 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1F0F7071C1D232000E99461 /* Info.plist */,
+				C1F0F7081C1D232000E99461 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C395B8D24C772BF7487EA172 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				82F8305AD5F02352C1126AD9 /* Pods-ZYLoggingCocoaLumberjack-example.debug.xcconfig */,
+				9FCA0A419FA412CB7EBEE518 /* Pods-ZYLoggingCocoaLumberjack-example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1F0F7021C1D232000E99461 /* ZYLoggingCocoaLumberjack-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1F0F7261C1D232000E99461 /* Build configuration list for PBXNativeTarget "ZYLoggingCocoaLumberjack-example" */;
+			buildPhases = (
+				E461C69D3295FA01F680E297 /* [CP] Check Pods Manifest.lock */,
+				C1F0F6FF1C1D232000E99461 /* Sources */,
+				C1F0F7001C1D232000E99461 /* Frameworks */,
+				C1F0F7011C1D232000E99461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZYLoggingCocoaLumberjack-example";
+			productName = "WJLoggingAPI-example";
+			productReference = C1F0F7031C1D232000E99461 /* ZYLoggingCocoaLumberjack-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1F0F6FB1C1D232000E99461 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = WJ;
+				TargetAttributes = {
+					C1F0F7021C1D232000E99461 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = C1F0F6FE1C1D232000E99461 /* Build configuration list for PBXProject "ZYLoggingCocoaLumberjack-example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = C1F0F6FA1C1D232000E99461;
+			productRefGroup = C1F0F7041C1D232000E99461 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1F0F7021C1D232000E99461 /* ZYLoggingCocoaLumberjack-example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1F0F7011C1D232000E99461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F0F7121C1D232000E99461 /* Main.storyboard in Resources */,
+				C1F0F7171C1D232000E99461 /* LaunchScreen.xib in Resources */,
+				C1F0F7141C1D232000E99461 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E461C69D3295FA01F680E297 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZYLoggingCocoaLumberjack-example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1F0F6FF1C1D232000E99461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1F0F70F1C1D232000E99461 /* ViewController.m in Sources */,
+				C1F0F70C1C1D232000E99461 /* AppDelegate.m in Sources */,
+				C1F0F7091C1D232000E99461 /* main.m in Sources */,
+				52F334C923643D4B00C600BB /* ZYLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C1F0F7101C1D232000E99461 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1F0F7111C1D232000E99461 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1F0F7151C1D232000E99461 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1F0F7161C1D232000E99461 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1F0F7241C1D232000E99461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1F0F7251C1D232000E99461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1F0F7271C1D232000E99461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82F8305AD5F02352C1126AD9 /* Pods-ZYLoggingCocoaLumberjack-example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ZYLoggingCocoaLumberjack-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C1F0F7281C1D232000E99461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FCA0A419FA412CB7EBEE518 /* Pods-ZYLoggingCocoaLumberjack-example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ZYLoggingCocoaLumberjack-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1F0F6FE1C1D232000E99461 /* Build configuration list for PBXProject "ZYLoggingCocoaLumberjack-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F0F7241C1D232000E99461 /* Debug */,
+				C1F0F7251C1D232000E99461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1F0F7261C1D232000E99461 /* Build configuration list for PBXNativeTarget "ZYLoggingCocoaLumberjack-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1F0F7271C1D232000E99461 /* Debug */,
+				C1F0F7281C1D232000E99461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1F0F6FB1C1D232000E99461 /* Project object */;
+}

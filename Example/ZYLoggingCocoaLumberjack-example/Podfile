@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/Eyshen/ios-zy-framework-cocoapods-specs.git'
+platform :ios, '7.0'
+
+target :'ZYLoggingCocoaLumberjack-example' do
+
+
+pod "CocoaLumberjack", '~> 3.4'
+pod "ZYLoggingAPI"
+
+end
