@@ -24,6 +24,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.dependency "CocoaLumberjack", '~> 3.4'
+  
   s.dependency "ZYLoggingAPI"
 
 end
